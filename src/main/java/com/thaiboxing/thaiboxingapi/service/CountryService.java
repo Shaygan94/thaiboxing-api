@@ -1,4 +1,4 @@
-package com.thaiboxing.thaiboxingapi.service;
+/*package com.thaiboxing.thaiboxingapi.service;
 
 import com.thaiboxing.thaiboxingapi.entity.Country;
 import com.thaiboxing.thaiboxingapi.repository.CountryRepository;
@@ -39,3 +39,5 @@ public class CountryService {
         return code != null && code.matches("[A-Z]{3}");
     }
 }
+
+ */

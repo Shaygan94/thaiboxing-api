@@ -1,4 +1,4 @@
-package com.thaiboxing.thaiboxingapi.controller;
+/* package com.thaiboxing.thaiboxingapi.controller;
 
 import com.thaiboxing.thaiboxingapi.entity.Country;
 import com.thaiboxing.thaiboxingapi.service.CountryService;
@@ -17,7 +17,7 @@ public class AdminController {
     @Autowired
     private SessionService sessionService;
 
-    @Autowired
+    //@Autowired
     private CountryService countryService;
 
     @PostMapping("/countries/start")
@@ -90,3 +90,5 @@ public class AdminController {
         return ResponseEntity.ok(response);
     }
 }
+
+     */
