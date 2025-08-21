@@ -28,10 +28,10 @@ public class MenuController {
         return menu;
     }
 
-    @Value("${admin.password}")
-    private String adminPassword;
+    //@Value("${admin.password}")
+    //private String adminPassword;
 
-    @PostMapping("/10")
+   /* @PostMapping("/10")
     public ResponseEntity<String> accessAdmin(@RequestBody Map<String, String> request ) {
         String password = request.get("password");
 
@@ -41,4 +41,6 @@ public class MenuController {
             return ResponseEntity.status(401).body("Access denied! Incorrect password.");
         }
     }
+
+    */
 }
